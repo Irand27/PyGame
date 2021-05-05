@@ -9,11 +9,11 @@ def jogar():
 
     nível = int(input("Defina o nível: "))
 
-    if(nível == 1):
+    if nível == 1:
         total_de_tentativas = 20
-    elif(nível == 2):
+    elif nível == 2:
         total_de_tentativas = 10
-    elif(nível == 3):
+    elif nível == 3:
         total_de_tentativas = 5
     else:
         print("Não é um nível válido")
